@@ -1,12 +1,15 @@
 const mynumber=32;
-const mystring="Treinta y Dos"
+const mystring="Hola mundo"
 
-type genericfuntion<T> = (param:T)=>T;
-
-const retursanme:genericfuntion<T>=(variable:T)=>{
+function retursanme<T>(variable: T){
     return variable;
 }
 
 const resultado=retursanme(mynumber);
 
 const resultado2=retursanme(mystring);
+
+console.log(resultado);
+console.log(resultado2);
+
+
