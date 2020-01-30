@@ -1,5 +1,5 @@
-const mynumber=32;
-const mystring="Hola mundo"
+const mynumber=333;
+const mystring="Hola mundo prueba git :v"
 
 function retursanme<T>(variable: T){
     return variable;
