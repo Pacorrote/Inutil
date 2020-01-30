@@ -7,7 +7,7 @@ function returnSame<t>(variable: t) {
 
 type genericFunction<T> = (parametro: T) => T
 
-const resultado = returnSame(myNumber)
+const resultadoP = returnSame(myNumber)
 const stringResult = returnSame(myString)
 
 
