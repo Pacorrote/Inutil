@@ -5,11 +5,11 @@ function retursanme<T>(variable: T){
     return variable;
 }
 
-const resultado=retursanme(mynumber);
+const resultadoErick=retursanme(mynumber);
 
-const resultado2=retursanme(mystring);
+const resultadoErick2=retursanme(mystring);
 
-console.log(resultado);
-console.log(resultado2);
+console.log(resultadoErick);
+console.log(resultadoErick2);
 
 
